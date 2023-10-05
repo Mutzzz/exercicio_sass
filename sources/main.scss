@@ -1,0 +1,45 @@
+@use './config/cores.scss';
+@use './config/reset.scss';
+
+@mixin padding() {
+    padding-top: 10px;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: white;
+}
+
+body {
+    background-color: cores.$corDeFundo;
+}
+
+.product-item,
+h2 {
+    color: cores.$corDoTexto;
+}
+
+.product-item h4,
+.product-item p {
+    @include padding();
+}
+
+.products li {
+    padding-top: 5%;
+}
+
+h2 {
+    padding-top: 30%;
+}
+
+
+.menu,
+.products {
+    list-style: none;
+}
+

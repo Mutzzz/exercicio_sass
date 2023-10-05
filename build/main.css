@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: white;
+}
+
+body {
+  background-color: rgb(26, 26, 26);
+}
+
+.product-item,
+h2 {
+  color: white;
+}
+
+.product-item h4,
+.product-item p {
+  padding-top: 10px;
+}
+
+.products li {
+  padding-top: 5%;
+}
+
+h2 {
+  padding-top: 30%;
+}
+
+.menu,
+.products {
+  list-style: none;
+}
+
+/*# sourceMappingURL=main.css.map */
